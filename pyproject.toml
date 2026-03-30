@@ -1,6 +1,6 @@
 [project]
 name = "rawtype"
-version = "0.1.0"
+version = "0.1.1"
 description = "Keyboard typing automation for macOS"
 authors = [
     {name = "khodaparastan",email = "mohammad@khodaparastan.com"}
@@ -21,3 +21,7 @@ dev = [
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+rawtype = "rawtype:cli"

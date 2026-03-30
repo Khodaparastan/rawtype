@@ -1,0 +1,23 @@
+[project]
+name = "rawtype"
+version = "0.1.0"
+description = "Keyboard typing automation for macOS"
+authors = [
+    {name = "khodaparastan",email = "mohammad@khodaparastan.com"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.12"
+dependencies = [
+    "click (>=8.3.1,<9.0.0)"
+]
+
+[dependency-groups]
+dev = [
+    "mypy (>=1.19.1,<2.0.0)",
+    "ruff (>=0.15.8,<0.16.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

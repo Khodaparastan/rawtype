@@ -1,6 +1,6 @@
 [project]
 name = "rawtype"
-version = "0.1.0"
+version = "0.1.1"
 description = "Keyboard typing automation for macOS"
 authors = [
     {name = "khodaparastan",email = "mohammad@khodaparastan.com"}
